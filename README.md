@@ -39,7 +39,7 @@ POST /api/v1/verify-tax
 {
   "success": true,
   "data": {
-    "tinNo": "117720382824",
+    "tinNo": "1177203828XX",
     "assessmentYear": "2023-2024",
     "submissionStatus": "OFFLINE",
     "assesName": "Nazma Akthar",
@@ -74,7 +74,7 @@ POST /api/v1/verify-tax
 curl -X POST "https://bangladesh-tax-verification-api.zenjahid-api.workers.dev/api/v1/verify-tax" \
 -H "Content-Type: application/json" \
 -d '{
-  "tin_no": "117720382824",
+  "tin_no": "1177203828XX",
   "assessment_year": "2023-2024"
 }'
 ```
@@ -85,7 +85,7 @@ import requests
 
 url = "https://bangladesh-tax-verification-api.zenjahid-api.workers.dev/api/v1/verify-tax"
 payload = {
-    "tin_no": "117720382824",
+    "tin_no": "1177203828XX",
     "assessment_year": "2023-2024"
 }
 
@@ -101,7 +101,7 @@ fetch('https://bangladesh-tax-verification-api.zenjahid-api.workers.dev/api/v1/v
     'Content-Type': 'application/json',
   },
   body: JSON.stringify({
-    tin_no: "117720382824",
+    tin_no: "1177203828XX",
     assessment_year: "2023-2024"
   }),
 })
@@ -114,7 +114,7 @@ fetch('https://bangladesh-tax-verification-api.zenjahid-api.workers.dev/api/v1/v
 <?php
 $url = 'https://bangladesh-tax-verification-api.zenjahid-api.workers.dev/api/v1/verify-tax';
 $data = [
-    'tin_no' => '117720382824',
+    'tin_no' => '1177203828XX',
     'assessment_year' => '2023-2024'
 ];
 
@@ -139,7 +139,7 @@ print_r($response);
 ### TIN Number
 - Must be exactly **12 digits**
 - Only numeric characters allowed
-- Example: `117720382824`
+- Example: `1177203828XX`
 
 ### Assessment Year
 - Must be in **YYYY-YYYY** format
