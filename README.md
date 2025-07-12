@@ -203,5 +203,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **⚠️ Important Note**: This API is not officially affiliated with the Bangladesh National Board of Revenue (NBR) or the Government of Bangladesh. It provides a convenient interface to publicly available tax verification services. Use at your own discretion and ensure compliance with local laws and regulations.
 
-**🤝 Contributing**: Issues and pull requests are welcome! Visit the [GitHub repository](https://github.com/zenjahid/api-worker-tax-verification) for more details.
+**🤝 Contributing**: Issues and pull requests are welcome! Visit the [GitHub repository](https://github.com/zenjahid/E-TAX-API) for more details.
 
